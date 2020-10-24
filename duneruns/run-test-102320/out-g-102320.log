@@ -1,0 +1,311 @@
+%MSG-i MF_INIT_OK:  Early 23-Oct-2020 19:17:23 CDT JobSetup
+Messagelogger initialization complete.
+%MSG
+%MSG-i GeometryCore:  Early 23-Oct-2020 19:17:25 CDT JobSetup GeometryCore.cxx:142
+New detector geometry loaded from 
+	/nashome/a/athansh/garsoft/build_slf7.x86_64/garsoft/gdml/nd_hall_mpd_only/nd_hall_mpd_only_ECalOctagon_60l_UniformMagnet.gdml
+	/nashome/a/athansh/garsoft/build_slf7.x86_64/garsoft/gdml/nd_hall_mpd_only/nd_hall_mpd_only_ECalOctagon_60l_UniformMagnet.gdml
+%MSG
+gar::ChannelMapStandardAlg::CheckPositions -- checking positions
+gar::ChannelMapStandardAlg::CheckPositions -- done checking positions
+######### gar::geo::seg::SegmentationMultiGridStripXYAlg() 
+cell encoding: system:3,module:3,stave:4,layer:7,slice:3,cellX:32:-16,cellY:-16
+identifier_x: cellX
+identifier_y: cellY
+grid_size_x: 2.5 cm
+grid_size_y: 2.5 cm
+strip_size_x: 4 cm
+strip_size_y: 4 cm
+offset_x: 1.25 cm
+offset_y: 1.25 cm
+identifier_layer: layer
+identifier_slice: slice
+active slice: 2
+grid_barrel_layers: 1:8 
+strip_barrel_layers: 9:60 
+grid_endcap_layers: 1:6 
+strip_endcap_layers: 7:60 
+strip_on_same_layer: 0
+Stored 2880 ECAL nodes in memory
+------------------------------
+World Geometry
+World Origin (x, y, z) 0 cm 0 cm 0 cm
+World Size (H, W, L) 30000 cm 30000 cm 60000 cm
+------------------------------
+Rock Geometry
+Rock Origin (x, y, z) -2137.9 cm 420.527 cm -11022.5 cm
+Rock Size (H, W, L) 13977.5 cm 6782 cm 16917 cm
+------------------------------
+Enclosure Geometry
+Enclosure Origin (x, y, z) 289.5 cm -320 cm 11982.5 cm
+Enclosure Size (H, W, L) 1492.74 cm 1221.5 cm 5517.5 cm
+------------------------------
+MPD Geometry
+MPD Origin (x, y, z) 1848.4 cm -251 cm 526 cm
+MPD Size (H, W, L) 500 cm 366.5 cm 733 cm
+------------------------------
+TPC Geometry
+TPC Origin (x, y, z) 0.00012207 cm -150.473 cm 1486 cm
+TPC Active Volume Size (R, L) 273 cm 518 cm
+------------------------------
+
+ECAL Geometry
+ECAL Barrel inner radius: 278.449 cm
+ECAL Barrel outer radius: 321.397 cm
+ECAL Endcap inside PV: 0
+ECAL Endcap inner radius: 0 cm
+ECAL Endcap outer radius: 321.397 cm
+ECAL Barrel inner symmetry: 8
+ECAL Barrel polyhedra angle: 135 deg
+ECAL Barrel polyhedra side length: 245.987 cm
+ECAL Barrel polyhedra apothem length: 296.932 cm
+ECAL Endcap polyhedra side length: 245.987 cm
+ECAL Endcap polyhedra apothem length: 296.932 cm
+ECAL Endcap Start X: 364.449 cm
+ECAL Endcap Outer X: 407.185 cm
+Number of layers: 60
+Pressure Vessel Thickness: 4.44901 cm
+------------------------------
+
+%MSG-i setupProvider<DetectorPropertiesStandard>:  Early  23-Oct-2020 19:17:29 CDT JobSetup
+Asked to ignore 1 keys: 'InheritNumberTimeSamples'
+%MSG
+%MSG-w DetectorPropertiesStandard:  Early 23-Oct-2020 19:17:29 CDT JobSetup DetectorPropertiesStandard.cxx:67
+DetectorPropertiesStandard Warning!	 The following functions need to be verified for gaseous argon:		 BirksCorrection		 Density		 DriftVelocity		 EField
+%MSG
+
+
+*****************************************************************************************************************
+*                                                                                                               *
+*                                                   .oooooo.    oooooooooooo ooooo      ooo ooooo oooooooooooo  *
+*                                                  d8P'  `Y8b   `888'     `8 `888b.     `8' `888' `888'     `8  *
+*                                                 888            888          8 `88b.    8   888   888          * 
+*                        Ndyooym          dN      888            888oooo8     8   `88b.  8   888   888oooo8     *
+*                     Nds//+sdmoy       d+m       888     ooooo  888    "     8     `88b.8   888   888    "     * 
+*                   Nh+//ohN  m+s      N//syyN    `88.    .88'   888       o  8       `888   888   888       o  *
+*                 Ny+//od   Nh+oN       o///+      `Y8bood8P'   o888ooooood8 o8o        `8  o888o o888ooooood8  *
+*               Nh+//om   Nh+/yN       o///s                                                                    *
+*              d+//+d   my+/smmyhN    m///h                                      NEUTRINO MONTE CARLO GENERATOR *   
+*            Ns///yN NdyoshNNs///d   h////yN                                                                    *
+*           mo//om        ms///+m   d///////oyhmN                                                 Version 3.0.6 *
+*          N+//yN       ms////+N    h////////////oym                                                            *
+*          s//h       ho/+///sN     N///////////////od                                  http://www.genie-mc.org *
+*         N+/h     my++yh+//y       s/////////////////oN                                                        *
+*         Ns/m Nmy++ymNh//+d        s//////////////////+m                                                       *
+*          NhssoshN  Ny//sN         m///////////////////+                                                       *
+*                  Nmo/+ohdmN        mo//////////////////h            NmmN                                      *
+*              ms/+s//o/-----:+sdN     mhso+ooys/////////o      mhs+/------/ohN                                 *
+*    Nhd     N+-/o+/o+------------/shN     Ndy+//////////+ mhs+:---------------om                               *
+*  mo/sN    m:/oo/oo:-----------------:://////////////////-----------------------y                              *
+*  y//d    Noo++o+:----------:------------:://///////////:-------:/+osyso/:-------h                             *
+*  Nyo+syysooo+/--------------::--------------:://///////:----::////+ossyso/------:                             *
+*     NNNNNs--------------------:/::-------------:://///:-:://////////oosyo+:------                             *
+*          y---------------------:////:::-----------:////////////////+o++++/:-----/                             *
+*          m-----------------------://////////////////////////////+so/--:---------y                             *
+*           +------------------------://////////////////////////+yy:---+oh/--:y+-/N                             *
+*           N/-------------------------://////////////////////ohy/-------yy--os-/m                              *
+*            No--------------------------://///////////////+shs/---------/d++/-oN                               *
+*              mo--------------------------:////////////+shyo:------------sy/sm                                 *
+*                Ny+:------------------------::://///oyhyo:--------------/sd                                    *
+*                    mhso+/:------------------:/+oyhyo/----------:/+syhm                                        *
+*                           NmddhyyyssssyyyhdmmNNNmhhhyyyyhhddmN                                                *
+*                                                                                                               *
+*                                                             Copyright (c) 2003-2019, The GENIE Collaboration  *
+*                                                                                                               *
+*                                                                                                               *
+*            Luis Alvarez-Ruso [8], Costas Andreopoulos [4,6], Christopher Barry [4], Francis Bench [4],        *
+*            Steve Dennis [4], Steve Dytman [5], Hugh Gallagher [7], Steven Gardiner [3], Walter Giele [3],     *
+*            Robert Hatcher [3], Libo Jiang [5], Rhiannon Jones [4], Igor Kakorin [2], Konstantin Kuzmin [2],   *
+*            Anselmo Meregaglia [1], Donna Naples [5], Vadim Naumov [2], Gabriel Perdue [3], Marco Roda [4],    *
+*            Vladyslav Syrotenko [7], Julia Tena Vidal [4], Jeremy Wolcott [7], and Julia Yarba [3]             *
+*                                                                                                               *
+*                                               (The GENIE Collaboration)                                       *
+*                                                                                                               *
+*                      [1] CENBG, Université de Bordeaux, CNRS/IN2P3, 33175 Gradignan, France                   *
+*              [2] Joint Institute for Nuclear Research (JINR), Dubna, Moscow region, 141980, Russia            *
+*                     [3] Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA                   *
+*                      [4] University of Liverpool, Dept. of Physics, Liverpool L69 7ZE, UK                     *
+*              [5] University of Pittsburgh, Dept. of Physics and Astronomy, Pittsburgh PA 15260, USA           *
+*             [6] STFC Rutherford Appleton Laboratory, Particle Physics Dept., Oxfordshire OX11 0QX, UK         *
+*                    [7] Tufts University, Dept. of Physics and Astronomy, Medford MA 02155, USA                *
+*                                       [8] University of Valencia, Valencia, Spain                             *
+*                                                                                                               *
+*  Corresponding Author:                                                                                        *
+*  Dr. Costas Andreopoulos  <costas.andreopoulos \at stfc.ac.uk>                                                *
+*                                                                                                               *
+*  University of Liverpool  |  STFC Rutherford Appleton Laboratory                                              *
+*  Physics Department       |  Particle Physics Department                                                      *
+*  Oliver Lodge Lab 316     |  Harwell Oxford Campus, R1 2.89                                                   *
+*  Liverpool L69 7ZE, UK    |  Oxfordshire OX11 0QX, UK                                                         *
+*  +44-(0)1517-943201 (tel) |  +44-(0)1235-445091 (tel)                                                         *
+*****************************************************************************************************************
+
+
+1603498649 NOTICE Messenger : [s] <SetPrioritiesFromXmlFile (158)> : Reading msg stream priorities from XML file: /cvmfs/larsoft.opensciencegrid.org/products/genie/v3_00_06i/Linux64bit+3.10-2.17-e19-prof/GENIE-Generator/config/Messenger.xml
+1603498649 INFO PDG : [n] <PDGLibrary.cxx::Instance (46)> : PDGLibrary late initialization
+1603498649 INFO PDG : [n] <PDGLibrary.cxx::LoadDBase (90)> : Load PDG data from: /cvmfs/larsoft.opensciencegrid.org/products/genie/v3_00_06i/Linux64bit+3.10-2.17-e19-prof/GENIE-Generator/data/evgen/catalogues/pdg/genie_pdg_table.txt
+%MSG-i FastCloning:  RootOutput:out1@Construction 23-Oct-2020 19:17:29 CDT  ModuleConstruction
+Initial fast cloning configuration (from default): true
+%MSG
+%MSG-w FastCloning:  RootOutput:out1@Construction 23-Oct-2020 19:17:29 CDT  ModuleConstruction
+Fast cloning deactivated due to presence of
+event selection configuration.
+%MSG
+%MSG-w LoadNewGeometry:  BeginRun 23-Oct-2020 19:17:29 CDT run: 1
+cannot find sumdata::RunData object to grab detector name
+this is expected if generating MC files
+using default geometry from configuration file
+
+%MSG
+Begin processing the 1st record. run: 1 subRun: 0 event: 1 at 23-Oct-2020 19:17:29 CDT
+23-Oct-2020 19:17:29 CDT  Opened output file with pattern "garsoftstyle102320.root"
+Begin processing the 2nd record. run: 1 subRun: 0 event: 2 at 23-Oct-2020 19:17:29 CDT
+Begin processing the 3rd record. run: 1 subRun: 0 event: 3 at 23-Oct-2020 19:17:29 CDT
+Begin processing the 4th record. run: 1 subRun: 0 event: 4 at 23-Oct-2020 19:17:30 CDT
+Begin processing the 5th record. run: 1 subRun: 0 event: 5 at 23-Oct-2020 19:17:30 CDT
+Begin processing the 6th record. run: 1 subRun: 0 event: 6 at 23-Oct-2020 19:17:30 CDT
+Begin processing the 7th record. run: 1 subRun: 0 event: 7 at 23-Oct-2020 19:17:30 CDT
+Begin processing the 8th record. run: 1 subRun: 0 event: 8 at 23-Oct-2020 19:17:30 CDT
+Begin processing the 9th record. run: 1 subRun: 0 event: 9 at 23-Oct-2020 19:17:30 CDT
+Begin processing the 10th record. run: 1 subRun: 0 event: 10 at 23-Oct-2020 19:17:31 CDT
+Begin processing the 11th record. run: 1 subRun: 0 event: 11 at 23-Oct-2020 19:17:31 CDT
+Begin processing the 12th record. run: 1 subRun: 0 event: 12 at 23-Oct-2020 19:17:31 CDT
+Begin processing the 13th record. run: 1 subRun: 0 event: 13 at 23-Oct-2020 19:17:31 CDT
+Begin processing the 14th record. run: 1 subRun: 0 event: 14 at 23-Oct-2020 19:17:31 CDT
+Begin processing the 15th record. run: 1 subRun: 0 event: 15 at 23-Oct-2020 19:17:32 CDT
+Begin processing the 16th record. run: 1 subRun: 0 event: 16 at 23-Oct-2020 19:17:32 CDT
+Begin processing the 17th record. run: 1 subRun: 0 event: 17 at 23-Oct-2020 19:17:32 CDT
+Begin processing the 18th record. run: 1 subRun: 0 event: 18 at 23-Oct-2020 19:17:32 CDT
+Begin processing the 19th record. run: 1 subRun: 0 event: 19 at 23-Oct-2020 19:17:32 CDT
+Begin processing the 20th record. run: 1 subRun: 0 event: 20 at 23-Oct-2020 19:17:32 CDT
+Begin processing the 21st record. run: 1 subRun: 0 event: 21 at 23-Oct-2020 19:17:32 CDT
+
+================================================================================================================================
+TimeTracker printout (sec)                        Min           Avg           Max         Median          RMS         nEvts   
+================================================================================================================================
+Full event                                    0.000604283    0.144042      0.365621      0.132318      0.104437        21     
+--------------------------------------------------------------------------------------------------------------------------------
+source:EmptyEvent(read)                       0.000604283    0.0010325    0.00185643    0.000908968   0.000368228      21     
+simulate:edepconvert:ConvertEdep2Art          0.00813282     0.0413915     0.102689      0.0370716     0.0271313       20     
+[art]:TriggerResults:TriggerResultInserter    1.1964e-05    1.54658e-05   4.6177e-05    1.34655e-05   7.21436e-06      20     
+end_path:out1:RootOutput                      1.0858e-05    1.73036e-05    6.688e-05    1.42915e-05   1.17198e-05      20     
+end_path:out1:RootOutput(write)               0.00623517     0.108634      0.262017      0.0970966     0.0754864       20     
+================================================================================================================================
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 21 passed = 20 failed = 1
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0         20         20          0 out1
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 1.466278 Real = 3.152312
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 837.415 VmHWM = 208.232
+
+%MSG-s ArtException:  PostEndJob 23-Oct-2020 19:17:32 CDT ModuleEndJob
+---- EventProcessorFailure BEGIN
+  EventProcessor: an exception occurred during current event processing
+  ---- ScheduleExecutionFailure BEGIN
+    Path: ProcessingStopped.
+    ---- LogicError BEGIN
+      DataViewImpl::checkPutProducts The following products have been declared with 'produces',
+      but they have not been placed onto the event:
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 668406418
+      Class Name = art::Assns<gar::sdp::EnergyDeposit,simb::MCParticle,void>
+      Friendly Class Name = gar::sdp::EnergyDepositsimb::MCParticlevoidart::Assns
+      Product Instance Name = 
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 1785305180
+      Class Name = art::Assns<simb::MCTruth,simb::MCParticle,void>
+      Friendly Class Name = simb::MCParticlesimb::MCTruthvoidart::Assns
+      Product Instance Name = 
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 518913692
+      Class Name = std::vector<gar::sdp::EnergyDeposit>
+      Friendly Class Name = gar::sdp::EnergyDeposits
+      Product Instance Name = 
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 4248849996
+      Class Name = std::vector<simb::MCParticle>
+      Friendly Class Name = simb::MCParticles
+      Product Instance Name = 
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 1544559967
+      Class Name = std::vector<simb::MCTruth>
+      Friendly Class Name = simb::MCTruths
+      Product Instance Name = 
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 4047375878
+      Class Name = art::Assns<gar::sdp::CaloDeposit,simb::MCParticle,void>
+      Friendly Class Name = gar::sdp::CaloDepositsimb::MCParticlevoidart::Assns
+      Product Instance Name = ECAL
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 978432078
+      Class Name = std::vector<gar::sdp::CaloDeposit>
+      Friendly Class Name = gar::sdp::CaloDeposits
+      Product Instance Name = ECAL
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 1431251840
+      Class Name = art::Assns<gar::sdp::CaloDeposit,simb::MCParticle,void>
+      Friendly Class Name = gar::sdp::CaloDepositsimb::MCParticlevoidart::Assns
+      Product Instance Name = MuID
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 2652935624
+      Class Name = std::vector<gar::sdp::CaloDeposit>
+      Friendly Class Name = gar::sdp::CaloDeposits
+      Product Instance Name = MuID
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 3097574620
+      Class Name = art::Assns<gar::sdp::CaloDeposit,simb::MCParticle,void>
+      Friendly Class Name = gar::sdp::CaloDepositsimb::MCParticlevoidart::Assns
+      Product Instance Name = TrackerSc
+      =========================
+      Branch Type = Event
+      Process Name = ConvertEdep2ArtProc
+      ModuleLabel = edepconvert
+      Product ID = 1175098469
+      Class Name = std::vector<gar::sdp::CaloDeposit>
+      Friendly Class Name = gar::sdp::CaloDeposits
+      Product Instance Name = TrackerSc
+      =========================
+      The above exception was thrown while processing module ConvertEdep2Art/edepconvert run: 1 subRun: 0 event: 21
+    ---- LogicError END
+    Exception going through path simulate
+  ---- ScheduleExecutionFailure END
+---- EventProcessorFailure END
+%MSG
+Art has completed and will exit with status 1.

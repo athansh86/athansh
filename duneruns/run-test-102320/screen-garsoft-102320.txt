@@ -1,0 +1,15 @@
+ 
+[athansh  work  ]> art -c conversionedepjob_hnl.fcl -n -10 -o garsoftstyle102320.root   >out-g-102320.log
+Info in <TGeoManager::Import>: Reading geometry from file: /nashome/a/athansh/garsoft/build_slf7.x86_64/garsoft/gdml/nd_hall_mpd_only/nd_hall_mpd_only_ECalOctagon_60l_UniformMagnet.gdml
+Info in <TGeoManager::TGeoManager>: Geometry GDMLImport, Geometry imported from GDML created
+Info in <TGeoManager::SetTopVolume>: Top volume is volWorld. Master volume is volWorld
+Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+Info in <TGeoManager::CheckGeometry>: ...Nothing to fix
+Info in <TGeoManager::CloseGeometry>: Counting nodes...
+Info in <TGeoManager::Voxelize>: Voxelizing...
+Info in <TGeoManager::CloseGeometry>: Building cache...
+Info in <TGeoManager::CountLevels>: max level = 10, max placements = 60
+Info in <TGeoManager::CloseGeometry>: 9092 nodes/ 9091 volume UID's in Geometry imported from GDML
+Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
+[athansh  work  ]> 
